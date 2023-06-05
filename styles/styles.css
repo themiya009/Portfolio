@@ -1,0 +1,107 @@
+ body{
+    font-family: Arial;
+ }
+
+
+ .whole-web{
+    padding: 150px;
+ }
+ 
+
+ .img-div{
+    display: inline-block;    
+ }
+
+ .pfp{
+    display: inline-block;
+    width: 120px;
+    transition: 0.5s;
+    
+ }
+
+ .pfp:hover{
+    width:300px;
+    transition: 0.5s;
+ }
+
+ .aboutme-div{
+    display: inline-block;
+    position: relative;
+    top: -55px;
+ }
+
+ .myname{
+    color:aliceblue;
+    margin-left: 10px;
+    font-size: 25px;
+ }
+
+ .desc-me{
+    color: aliceblue;
+    font-size: 23px;
+ }
+
+ .projects{
+    color: rgb(117, 115, 115);
+    font-size: 25px;
+ }
+
+ .slide-horizontal{
+    max-height: 500px;
+    border: 0px solid #494949;
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+ }
+
+ .slide-horizontal::-webkit-scrollbar{
+    width: 0;
+ }
+
+ .slide-horizontal .item{
+    border-radius: 25px;
+    border-bottom: ;
+    min-width: 400px;
+    height: 500px;
+    line-height: 110px;
+    text-align: center;
+    background-color: #2e2e2e;
+    margin-right: 10px;
+ }
+
+ .mikasa{
+    width:300px;
+    margin-top: 35px;
+    margin-bottom: 0;
+    border-radius: 20px;
+ }
+
+ .mikasa-info{
+    position: relative;
+    top: 350px;
+ }
+
+ .artworks{
+    font-family: Arial;
+    font-weight: 100px;
+    color: rgb(117, 115, 115);
+    font-size: 25px;
+ }
+
+.psnote{
+    color: white;
+}
+
+.gmail-button{
+    align-items: center;
+    margin-top: 75px;
+    margin-right: 80px;
+    width: 40px;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+.gmail-button:hover{
+    width: 60px;
+    transition: 0.5s;
+}
